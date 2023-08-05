@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>IMDB clone app</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- header which contain title and input box for search movie -->
+    <header>
+      <h2><a href="index.html">Mini IMDB clone</a></h2>
+      <input type="text" placeholder="Search movies..." id="searchInput" />
+      <a href="favourite.html">Favourite List</a>
+    </header>
+    <!-- end of header -->
+    <!-- main inside this search result container is created when movie fetch the data and display inside this -->
+    <main>
+      <h2 class="heading" id="searchhead"><u>Search movies</u>:</h2>
+      <div id="searchResults"></div>
+    </main>
+    <!-- end of main -->
+    <script src="script.js"></script>
+  </body>
+</html>
