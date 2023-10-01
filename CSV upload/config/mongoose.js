@@ -2,7 +2,13 @@
 const mongoose = require('mongoose');
 
 // connect to the database
-mongoose.connect('mongodb+srv://mohityoga2016:BWxlkO26oZqIjxMI@cluster0.btrlmee.mongodb.net/?retryWrites=true&w=majority');
+const DB = ('mongodb+srv://mohityoga2016:BWxlkO26oZqIjxMI@cluster0.eqqqsse.mongodb.net/?retryWrites=true&w=majority');
+
+
+mongoose.connect(DB, {
+	useNewUrlParser: true,
+	useUnifiedTopology: true,
+});
 
 // acquire the connection to check if it is successfully
 const db = mongoose.connection;
