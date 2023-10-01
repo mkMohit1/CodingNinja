@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-const DB = ('mongodb://127.0.0.1:27017/placementCell');
+const DB = ('mongodb+srv://mohityoga2016:g5xo63qMO5AuF2en@cluster0.eqqqsse.mongodb.net/?retryWrites=true&w=majority');
 
 
 mongoose.connect(DB, {
