@@ -1,7 +1,7 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 const app = express();
-const port = process.env.port || 8007;
+const port = 8007;
 const ejslayouts = require('express-ejs-layouts');
 const sassMiddlWare = require('node-sass-middleware');
 const db = require('./config/mongoose')
