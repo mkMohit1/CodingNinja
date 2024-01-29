@@ -1,0 +1,38 @@
+.TodoList {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid;
+  margin: 5px 0;
+  border-radius: 10px;
+  background-color: #6d87e7ee;
+  color: #f5e5e5;
+}
+.TodoDetail {
+  display: flex;
+  width: 85%;
+  justify-content: space-between;
+}
+.date,
+.category {
+  align-self: center;
+}
+.delete {
+  border: none;
+  width: 45px;
+  height: 45px;
+  margin-right: 5px;
+  border-radius: 100%;
+  cursor: pointer;
+}
+.delete > img {
+  width: 30px;
+  object-fit: contain;
+}
+.title {
+  height: fit-content;
+  overflow: hidden;
+  width: 45vw;
+  min-width: 250px;
+  word-wrap: break-word;
+}
