@@ -1,0 +1,48 @@
+body {
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+#app{
+  border: 1px solid black;
+  width: 80vw;
+  height: 80vh;
+  margin: auto;
+  position: relative;
+}
+.rod{
+  width: 20vw;
+  height: 9vh;
+  border: 1px solid;
+  border-radius: 10px;
+  position: absolute;
+  text-align: center;
+}
+.rod1{
+  background-color: red;
+  top:1px;
+  left: 35%;
+}
+.rod2{
+  background-color: rebeccapurple;
+  bottom: 1px;
+  left: 35%;
+}
+#app .rod span{
+  font-size: 7px;
+    color: white;
+    vertical-align: middle;
+}
+.ball{
+  width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: rgb(37, 203, 233);
+    top: 50%;
+    position: absolute;
+    left: 46%;
+    z-index: 1;
+}
